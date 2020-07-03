@@ -173,6 +173,7 @@ EOF
   {
     yum install -y -q make automake gcc python-pip python-devel libyaml-devel
     pip install --upgrade pip
+    pip install --upgrade setuptools
     pip install --upgrade obfsproxy
     yum install -y -q screen
     screen -d -m obfsproxy --log-file=obfsproxy.log --log-min-severity=info obfs3 --dest=127.0.0.1:443 server 0.0.0.0:21194
