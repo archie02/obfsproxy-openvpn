@@ -10,7 +10,7 @@ You will need to have root previleges to execute the script on your server
 
 Run the following after having logined as a user with admin privileges to execute the script
 
-`curl -so openvpn_obfsproxy.sh -L  https://raw.githubusercontent.com/khavishbhundoo/obfsproxy-openvpn/master/openvpn_obfsproxy.sh  && sudo bash openvpn_obfsproxy.sh`
+`curl -so openvpn_obfsproxy.sh -L  https://raw.githubusercontent.com/archie02/obfsproxy-openvpn/master/openvpn_obfsproxy.sh  && sudo bash openvpn_obfsproxy.sh`
 
 Check the video for a [live demo of the installation](https://github.com/khavishbhundoo/obfsproxy-openvpn/#video) 
 
